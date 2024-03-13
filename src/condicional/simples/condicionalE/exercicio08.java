@@ -1,4 +1,4 @@
-package condicional.simples;
+package condicional.simples.condicionalE;
 
 import java.util.Scanner;
 
