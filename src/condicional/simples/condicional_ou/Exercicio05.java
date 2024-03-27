@@ -1,4 +1,4 @@
-package condicional.simples.condicionalOu;
+package condicional.simples.condicional_ou;
 
 public class Exercicio05 {
     public static void main(String[] args) {

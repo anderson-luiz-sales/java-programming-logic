@@ -1,4 +1,4 @@
-package condicional.simples.condicionalOu;
+package condicional.simples.condicional_ou;
 
 import java.util.Scanner;
 

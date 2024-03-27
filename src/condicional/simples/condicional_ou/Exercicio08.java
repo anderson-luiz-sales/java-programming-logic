@@ -1,19 +1,19 @@
-package condicional.simples.condicionalOu;
+package condicional.simples.condicional_ou;
 
 import java.util.Scanner;
 
-public class Exercicio04 {
+public class Exercicio08 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite um número: ");
         int numero = scanner.nextInt();
 
-        if ((numero >= 1 && numero <= 100) || numero < 0) {
+        if (numero > 0 || numero < 10) {
             System.out.println("Número válido");
         }
 
-        if (!((numero >= 1 && numero <= 100) || numero < 0)) {
+        if (!(numero > 0 || numero < 10)) {
             System.out.println("Número inválido");
         }
     }
