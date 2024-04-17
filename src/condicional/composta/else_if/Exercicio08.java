@@ -2,7 +2,7 @@ package condicional.composta.else_if;
 
 import java.util.Scanner;
 
-public class exercicio08 {
+public class Exercicio08 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
