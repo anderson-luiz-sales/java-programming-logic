@@ -1,4 +1,4 @@
-package condicional.composta.else_if;
+package condicional.else_if;
 
 import java.util.Scanner;
 
