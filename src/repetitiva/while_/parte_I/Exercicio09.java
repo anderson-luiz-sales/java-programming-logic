@@ -1,8 +1,8 @@
-package repetitiva.while_;
+package repetitiva.while_.parte_I;
 
 import java.util.Scanner;
 
-public class Exercicio10 {
+public class Exercicio09 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -13,16 +13,15 @@ public class Exercicio10 {
         // Inicializa o contador
         int i = 1;
 
-        // Exibe todos os números ímpares de 1 até N
-        System.out.println("Números ímpares de 1 até " + N + ":");
+        // Exibe todos os números pares de 1 até N
+        System.out.println("Números pares de 1 até " + N + ":");
 
         while (i <= N) {
-            if (i % 2 != 0) {
+            if (i % 2 == 0) {
                 System.out.print(i + " ");
             }
             i++;
         }
-
         scanner.close();
     }
 }
