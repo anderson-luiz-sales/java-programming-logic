@@ -1,4 +1,4 @@
-package repetitiva.while_.parte_I;
+package repetitiva.while_.parteII;
 
 import java.util.Scanner;
 
@@ -9,13 +9,13 @@ public class Exercicio03 {
         System.out.print("Digite um número inteiro positivo: ");
         int numero = scanner.nextInt();
 
-        int i = 1;
-        while (i <= 10) {
-            System.out.println(numero + " x " + i + " = " + (numero * i));
-            i++;
+        int indece = 2; // Começando a sequência de números pares a partir de 2
+
+        while (indece <= numero) {
+            System.out.println(indece);
+            indece = indece + 2; // Incrementando de 2 em 2 para manter apenas os números pares
         }
 
-        System.out.println("Fim do programa");
         scanner.close();
     }
 }

@@ -1,22 +1,22 @@
-package repetitiva.while_.parte_I;
+package repetitiva.while_.parteI;
 
 import java.util.Scanner;
 
-public class Exemplo {
+public class Exercicio05 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("informa um valor: ");
         int valor = sc.nextInt();
 
-        int soma = 0;
+        int mult = 1;
 
         while (valor != 0) {
-            soma = soma + valor;
+            mult = mult * valor;
             valor = sc.nextInt();
         }
 
-        System.out.println("A soma dos valores é: " + soma);
+        System.out.println("A multplicação dos valores é: " + mult);
         System.out.println("Fim do programa");
 
         sc.close();
