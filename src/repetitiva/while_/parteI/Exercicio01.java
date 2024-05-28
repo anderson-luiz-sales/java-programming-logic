@@ -1,4 +1,4 @@
-package repetitiva.while_;
+package repetitiva.while_.parteI;
 
 public class Exercicio01 {
     public static void main(String[] args) {

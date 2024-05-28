@@ -1,4 +1,4 @@
-package repetitiva.while_;
+package repetitiva.while_.parteI;
 
 import java.util.Random;
 import java.util.Scanner;
