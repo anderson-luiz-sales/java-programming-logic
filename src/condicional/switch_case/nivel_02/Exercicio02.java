@@ -1,4 +1,4 @@
-package condicional.switch_case;
+package condicional.switch_case.nivel_02;
 
 import java.util.Scanner;
 
