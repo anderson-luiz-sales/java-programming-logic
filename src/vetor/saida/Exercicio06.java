@@ -1,4 +1,4 @@
-package vetor;
+package vetor.saida;
 
 public class Exercicio06 {
     public static void main(String[] args) {
