@@ -1,4 +1,4 @@
-package repetitiva.do_while;
+package repetitiva.do_while.parteI;
 
 import java.util.Scanner;
 

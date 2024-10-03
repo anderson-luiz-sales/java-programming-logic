@@ -1,4 +1,4 @@
-package repetitiva.do_while;
+package repetitiva.do_while.parteII;
 
 import java.util.Scanner;
 
@@ -6,18 +6,18 @@ public class Exercicio04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int numero;
-        int mult = 1;
+        int soma = 0;
 
         do {
-            System.out.println("Por favor, insira um número (ou um número negativo para sair):");
+            System.out.print("Digite um número inteiro positivo (ou um número negativo para sair): ");
             numero = scanner.nextInt();
 
             if (numero >= 0) {
-                mult = numero * numero;
+                soma += numero; // Adiciona o número à soma se for positivo
             }
         } while (numero >= 0);
 
-        System.out.println("A multiplicação dos números positivos inseridos é: " + mult);
+        System.out.println("A soma total dos números é: " + soma);
         scanner.close();
     }
 }
